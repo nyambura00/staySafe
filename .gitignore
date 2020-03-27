@@ -1,12 +1,4 @@
-functions/
-public/
-.firebaserc
-database.rules.json
-firebase.json
-firestore.indexes.json
-firestore.rules
-package.json
-storage.rules
+
 # Logs
 logs
 *.log
