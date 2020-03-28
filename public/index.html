@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" href="../images/basket_2g5_icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/basket_2g5_icon.ico" type="image/x-icon">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/basket_2g5_icon.ico">
     <title>StaySafe|Home</title>
 
     <!-- update the version number as needed -->
@@ -30,50 +32,51 @@
                   <nav>
                       <ul>
                           <li><a href="#">Home</a></li>
-                          <li><a href="#">Tips</a></li>
-                          <li>Contact</li>
+                          <li><a href="./pages/tips.html">Tips</a></li>
+                          <li><a href="./pages/contact.html">Contact</a></li>
+                          <li><a href="./pages/myorders.html">My Orders</a></li>
                       </ul>
                   </nav>
               </div>
               <div class="basket-icon">
-                  <img src="../images/basket.jpg">
+                  <img src="./images/basket.jpg">
                   <a href="#">View Cart</a>
               </div>
             </header>
             <main>
             <ul class="products">
               <li>
-                <img src="../images/durex.jpeg">
+                <img src="./images/durex.jpeg">
                 <h2>Strawberry Kiss</h2>
                 <p>Ksh 70</p>
                 <button>Add to Basket</button>
               </li>
               <li>
-                <img src="../images/kiss.jpeg">
+                <img src="./images/kiss.jpeg">
                 <h2>Strawberry Kiss</h2>
                 <p>Ksh 70</p>
                 <button>Add to Basket</button>
               </li>
               <li>
-                <img src="../images/dolphi.jpeg">
+                <img src="./images/dolphi.jpeg">
                 <h2>Strawberry Kiss</h2>
                 <p>Ksh 70</p>
                 <button>Add to Basket</button>
               </li>
               <li>
-                <img src="../images/durex.jpeg">
+                <img src="./images/durex.jpeg">
                 <h2>Strawberry Kiss</h2>
                 <p>Ksh 70</p>
                 <button>Add to Basket</button>
               </li>
               <li>
-                <img src="../images/kiss.jpeg">
+                <img src="./images/kiss.jpeg">
                 <h2>Strawberry Kiss</h2>
                 <p>Ksh 70</p>
                 <button>Add to Basket</button>
               </li>
               <li>
-                <img src="../images/kiss.jpeg">
+                <img src="./images/kiss.jpeg">
                 <h2>Strawberry Kiss</h2>
                 <p>Ksh 70</p>
                 <button>Add to Basket</button>
@@ -100,15 +103,7 @@
         //
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+      })
     </script>
   </body>
 </html>
