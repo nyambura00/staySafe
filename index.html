@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/style-homepage.css">
     <link rel="shortcut icon" href="./images/basket_2g5_icon.ico" type="image/x-icon">
   
        <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -19,11 +19,10 @@
 </head>
 <body>
     <div id="basket">
-
-		<header>
-            <div>
-            <h3>Stay Safe. Get quality products!</h3>
-            <div>
+          <header>
+            <p id="logo">stay<b>Safe</b></p> 
+            <p id="advert-post">Get quality products!</p>
+            <div id="navigation-links">
               <nav>
                   <ul>
                       <li><a href="#">Tips</a></li>
@@ -31,8 +30,9 @@
                       <li><a href="#">Contact us</a></li>
                   </ul>
               </nav>
+            </div>
           </header>
-          <main>
+        <main>
           <ul class="products">
             <li>
               <img src="./images/ribbed.png" width="150" height="150">
@@ -60,7 +60,7 @@
               <button>Add to Basket</button>
             </li>
             <li>
-              <img src="/images/durex-extra-safe-condom.jpeg" width="150" height="150">
+              <img src="/images/chocolate-kiss.jpg" width="150" height="150">
               <h2>Chocolate Kiss</h2>
               <button>Add to Basket</button>
             </li>
@@ -86,8 +86,7 @@
         </footer>
 	</div>
      <!--my actual firebase app-->
-       <script src="app.js">
-         </script>
+     <script src="app.js"> </script>
     <script src="./js/main.js"></script>
 </body>
 </html>
