@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/basket_2g5_icon.ico" type="image/x-icon">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/basket_2g5_icon.ico">
+    <title>StaySafe|Home</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.12.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.12.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.12.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.12.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.12.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script src="/__/firebase/7.12.0/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+
+  </head>
+  <body>
+    <div id="container">
+
+      <header>
+              <div>
+              <h1>Stay Safe</h1>
+              </div>
+              <div>
+                  <nav>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="./pages/tips.html">Tips</a></li>
+                          <li><a href="./pages/contact.html">Contact</a></li>
+                          <li><a href="./pages/myorders.html">My Orders</a></li>
+                      </ul>
+                  </nav>
+              </div>
+              <div class="basket-icon">
+                  <img src="./images/basket.jpg">
+                  <a href="#">View Cart</a>
+              </div>
+            </header>
+            <main>
+            <ul class="products">
+              <li>
+                <img src="./images/durex.jpeg">
+                <h2>Strawberry Kiss</h2>
+                <p>Ksh 70</p>
+                <button>Add to Basket</button>
+              </li>
+              <li>
+                <img src="./images/kiss.jpeg">
+                <h2>Strawberry Kiss</h2>
+                <p>Ksh 70</p>
+                <button>Add to Basket</button>
+              </li>
+              <li>
+                <img src="./images/dolphi.jpeg">
+                <h2>Strawberry Kiss</h2>
+                <p>Ksh 70</p>
+                <button>Add to Basket</button>
+              </li>
+              <li>
+                <img src="./images/durex.jpeg">
+                <h2>Strawberry Kiss</h2>
+                <p>Ksh 70</p>
+                <button>Add to Basket</button>
+              </li>
+              <li>
+                <img src="./images/kiss.jpeg">
+                <h2>Strawberry Kiss</h2>
+                <p>Ksh 70</p>
+                <button>Add to Basket</button>
+              </li>
+              <li>
+                <img src="./images/kiss.jpeg">
+                <h2>Strawberry Kiss</h2>
+                <p>Ksh 70</p>
+                <button>Add to Basket</button>
+              </li>
+            </ul>
+          </main>
+          <footer>
+              <p>Copyright &copy; 2020</p>
+          </footer>
+    </div>
+       <!--my actual firebase app-->
+         <script src="app.js">
+           </script>
+      <script src="./js/main.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      })
+    </script>
+  </body>
+</html>

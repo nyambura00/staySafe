@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.contact-header{
+    font-weight: bold;
+    font-size: 30px;
+    
+    text-decoration: underline;
+}
+
+#query{
+    font-size: 20px;
+    padding: 20px;
+}
+.p_contact{
+    font-size: 20px;
+}
+.field{
+    padding: 20px 0 20px 0;
+}
+
+input{
+    border: none;
+    background: #F0E4E2;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+
+textarea{
+    border: none;
+    background: #F0E4E2;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+button{
+    background: #00acee;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+}
+
+.button{
+    margin-bottom: 20px;
+}
+
+@media(min-width:768px){
+    input{
+        width: 80%;
+    }
+    textarea{
+        width: 80%;
+    }
+    button{
+        padding: 15px 45px 15px 45px;
+        font-size: 25px;
+    }
+}
+@media(max-width:768px){
+    textarea{
+        width: 50%;
+    }
+}
