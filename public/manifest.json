@@ -1,0 +1,16 @@
+{
+  "name": "Stay Safe",
+  "short_name": "StaySafe",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFE9D2",
+  "theme_color": "#FFE1C4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./images/basket_2g5_icon.ico",
+      "type": "image/x-icon",
+      "sizes": "72x72"
+    }
+  ]
+}
