@@ -6,126 +6,123 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/logo_icon.ico" type="image/x-icon">
   
-       <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
        <script src="/__/firebase/7.12.0/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
+  <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
       <script src="/__/firebase/7.12.0/firebase-analytics.js"></script>
 
-<!-- Initialize Firebase -->
+  <!-- Initialize Firebase -->
       <script src="/__/firebase/init.js"></script>
       <script src="js/modernizr.js"></script> <!-- Modernizr -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <title>Stay Safe</title>
+    <title>StaySafe</title>
 </head>
 <body>
-  <div id="basket">	 
-    <header>
-  <div id="logo"><img src="../public/images/logo.png">
-  <div id="basket">	  <header>
-  <div id="logo"><img src="./images/logo.png">
-    <a href="#0">Stay Safe</a>
-  </div>
-  <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
-  <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0">Cart</a></div>
-    </header>
-<nav id="main-nav" class="">
-  <ul>
-  <li><a class="current" href="#">Home</a></li>
-  <li><a href="#">Shop</a></li>
-  <li><a href="#">Tips</a></li>
-  <li><a href="#">Contact Us</a></li>
-  <li><a href="./pages/tips.html">Tips</a></li>
-  <li><a href="./pages/contact.html">Contact</a></li>
->>>>>>> 478ac6e94fb9d8061bf0445d6af926234a788e7e
-  </ul>
-</nav>
-<main>
-  <ul id="shop-list" class="cd-container">
-    <li>
-      <img src="./images/Kiss-Strawberry.jpg">
-      <h2>Strawberry Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/classic-kiss.jpg">
-      <h2>Classic Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/Kiss-Chocolate.jpg">
-      <h2>Chocolate Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/Kiss-Strawberry.jpg">
-      <h2>Strawberry Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/classic-kiss.jpg">
-      <h2>Classic Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/Kiss-Chocolate.jpg">
-      <h2>Chocolate Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/Kiss-Strawberry.jpg">
-      <h2>Strawberry Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/classic-kiss.jpg">
-      <h2>Classic Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    <li>
-      <img src="./images/Kiss-Chocolate.jpg">
-      <h2>Chocolate Kiss</h2>
-      <button class="button">Add to Basket</button>
-    </li>
-    </ul>
-</main>
-<div id="cd-cart">
-  <h2>Cart</h2>
-  <ul class="cd-cart-items">
-    <li>
-      <span class="cd-qty">1x</span> Product Name
-      <div class="cd-price">50KES</div>
-      <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
-    </li>
-
-    <li>
-      <span class="cd-qty">2x</span> Product Name
-      <div class="cd-price">200KES</div>
-      <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
-    </li>
-
-    <li>
-      <span class="cd-qty">1x</span> Product Name
-      <div class="cd-price">100KES</div>
-      <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
-    </li>
-  </ul> <!-- cd-cart-items -->
-
-  <div class="cd-cart-total">
-    <p>Total <span>350KES</span></p>
-  </div> <!-- cd-cart-total -->
-
-  <a href="#0" class="checkout-btn">Checkout</a>
-  
-  <p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
-</div> <!-- cd-cart -->
-	<footer>	  
-      <p>Copyright &copy; 2020</p>
-  </footer>
+  <!--logo section-->
+  <header>
+    <div id="logo">
+      <img src="./images/logo.png"><a href="../index.html">StaySafe</a>
+    </div>
+  <!--the cart trigger section--> <!--where is the cart image?--> <!--an(x) is needed to exit the cart triggered top right menu-->
+    <div id="cd-cart-trigger">
+      <a class="cd-img-replace" href="#0">Cart</a>
+    </div>
+  </header>
+  <!--the navigation section= Home + My orders + Tips + Contact us-->
+  <nav id="main-nav" class="">
+      <ul>
+        <li><a class="current" href="index.html">Home</a></li>
+        <li><a href="./pages/myorders.html">My Orders</a></li>
+        <li><a href="./pages/tips.html">Tips</a></li>
+        <li><a href="./pages/contact.html">Contact us</a></li>
+      </ul>
+  </nav>
+  <!--the main part of the site with the products on sale-->
+    <main>
+      <ul id="shop-list" class="cd-container">
+        <li>
+          <img src="./images/Kiss-Strawberry.jpg">
+          <h2>Strawberry Kiss</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/classic-kiss.jpg">
+          <h2>Classic Kiss</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/Kiss-Chocolate.jpg">
+          <h2>Chocolate Kiss</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/classic-trust.png">
+          <h2>Classic Trust</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/studded-trust.png">
+          <h2>Studded Trust</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/ribbed.png">
+          <h2>Ribbed Trust</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/durex-extra-safe-condom.jpeg">
+          <h2>Durex Extra Safe</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/durex-performa-condoms.jpeg">
+          <h2>Durex Performa</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+        <li>
+          <img src="./images/durex-select-flavours-condoms.jpeg">
+          <h2>Durex Colored and flavoured</h2>
+          <button class="button">Add to Basket</button>
+        </li>
+      </ul>
+    </main>
+    <!-- cd-cart-->
+      <div id="cd-cart">
+        <h2>Cart</h2>
+    <!-- cd-cart-items selected -->
+        <ul class="cd-cart-items">
+            <li>
+              <span class="cd-qty">1x</span> Product Name
+              <div class="cd-price">50KES</div>
+              <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+            <li>
+              <span class="cd-qty">2x</span> Product Name
+              <div class="cd-price">200KES</div>
+              <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+            <li>
+              <span class="cd-qty">1x</span> Product Name
+              <div class="cd-price">100KES</div>
+              <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+        </ul> 
+    <!-- cd-cart-total -->
+        <div class="cd-cart-total">
+          <p>Total <span>350KES</span></p>
+        </div> 
+        <a href="#0" class="checkout-btn">Checkout</a>
+        <p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
+      </div>
+    <!--the footer section-->
+	    <footer>	  
+        <p>Copyright &copy; 2020</p>
+      </footer>
     <!--my actual firebase app-->
- 
-  <script src="./js/main.js"></script>
+ <script src="./js/main.js"></script>
   <script src="./js/modernizr.js"></script>
 </body>
 </html>

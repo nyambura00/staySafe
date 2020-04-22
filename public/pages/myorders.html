@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/myorders.css">
     <link rel="shortcut icon" href="../images/logo_icon.ico" type="image/x-icon">
-  
-       <!-- The core Firebase JS SDK is always required and must be listed first -->
-       <script src="/__/firebase/7.12.0/firebase-app.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+      <script src="/__/firebase/7.12.0/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
@@ -21,21 +20,25 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div id="logo"><img src="../public/images/logo.png">
-              <a href="../index.html">Stay Safe</a>
-            </div>
-            <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
-            <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0">Cart</a></div>
-          </header>
-          <nav id="main-nav" class="">
-            <ul>
-            <li><a class="current" href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="./pages/tips.html">Tips</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-            </ul>
-          </nav>
+   <!--logo section-->
+   <header>
+    <div id="logo">
+      <img src="../images/logo.png"><a href="../index.html">StaySafe</a>
+     </div>
+  <!--the cart trigger section--> 
+    <div id="cd-cart-trigger">
+      <a class="cd-img-replace" href="#0">Cart</a>
+    </div>
+  </header>
+  <!--the navigation section= Home + Order History + Tips + Contact us-->
+  <nav id="main-nav" class="">
+      <ul>
+        <li><a href="/public/index.html">Home</a></li> 
+        <li><a class="current" href="./myorders.html">My Orders</a></li>
+        <li><a href="./tips.html">Tips</a></li>
+        <li><a href="./contact.html">Contact us</a></li>
+      </ul>
+  </nav>
         <main>
             <h1>My Orders</h1>
             <div class="order">
@@ -43,7 +46,7 @@
             </div>
         </main>
     </div>
-    <script src="../js/main.js"></script>
+  <script src="../js/main.js"></script>
   <script src="../js/modernizr.js"></script>
 </body>
 </html>

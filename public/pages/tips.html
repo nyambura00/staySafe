@@ -21,21 +21,24 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <div id="logo"><img src="../images/logo.png">
-              <a href="../index.html">Stay Safe</a>
-            </div>
-            <div id="cd-hamburger-menu"><a class="cd-img-replace" href="#0">Menu</a></div>
-            <div id="cd-cart-trigger"><a class="cd-img-replace" href="#0">Cart</a></div>
-          </header>
-          <nav id="main-nav" class="">
-            <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a  class="current" href="#">Tips</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            </ul>
-          </nav>
+      <header>
+        <div id="logo">
+          <img src="../images/logo.png"><a href="../index.html">StaySafe</a>
+        </div>
+      <!--the cart trigger section-->
+        <div id="cd-cart-trigger">
+          <a class="cd-img-replace" href="#0">Cart</a>
+        </div>
+      </header>
+      <!--the navigation section= Home + My orders + Tips + Contact us-->
+      <nav id="main-nav" class="">
+          <ul>
+            <li><a href="/public/index.html">Home</a></li>
+            <li><a href="./myorders.html">My Orders</a></li>
+            <li><a class="current" href="./tips.html">Tips</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
+          </ul>
+      </nav>
         <main>
           <div class="tips-header">
             <h1>Tips</h1>
@@ -57,6 +60,34 @@
                 </p>
             </section>
         </main>
+        <!-- cd-cart-->
+      <div id="cd-cart">
+        <h2>Cart</h2>
+    <!-- cd-cart-items selected -->
+        <ul class="cd-cart-items">
+            <li>
+              <span class="cd-qty">1x</span> Product Name
+              <div class="cd-price">50KES</div>
+              <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+            <li>
+              <span class="cd-qty">2x</span> Product Name
+              <div class="cd-price">200KES</div>
+              <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+            <li>
+              <span class="cd-qty">1x</span> Product Name
+              <div class="cd-price">100KES</div>
+              <a href="#0" class="cd-item-remove cd-img-replace">Remove</a>
+            </li>
+        </ul> 
+    <!-- cd-cart-total -->
+        <div class="cd-cart-total">
+          <p>Total <span>350KES</span></p>
+        </div> 
+        <a href="#0" class="checkout-btn">Checkout</a>
+        <p class="cd-go-to-cart"><a href="#0">Go to cart page</a></p>
+      </div>
     </div>
     <script src="app.js"></script>
     <script src="../js/main.js"></script>
